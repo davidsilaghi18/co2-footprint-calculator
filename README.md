@@ -2,7 +2,7 @@
 
 This project is a simple and interactive Streamlit app that estimates your **annual carbon footprint** based on your lifestyle habits — such as driving, flying, diet, and electricity usage.
 
-![App Screenshot](images/screenshot.png)
+
 
 
 ## 🧠 Features
