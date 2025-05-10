@@ -1,0 +1,19 @@
+# Save user input + result
+data = {
+    "timestamp": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+    "km_per_week": [km_per_week],
+    "flights_per_year": [flights_per_year],
+    "diet_type": [diet_type],
+    "electricity_per_month": [electricity_per_month],
+    "total_emission": [total_emission]
+}
+
+df = pd.DataFrame(data)
+file_path = "data/user_data.csv"
+
+if os.path.exists(file_path):
+    df.to_csv(file_path, mode='a', header=False, index=False)
+else:
+    df.to_csv(file_path, index=False)
+
+st.success("✅ Your data has been saved to data/user_data.csv")
