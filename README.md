@@ -11,7 +11,8 @@ This project is a simple and interactive Streamlit app that estimates your **ann
 - 📊 Shows total yearly CO₂ and category breakdown
 - 💡 Offers tips to reduce your carbon footprint
 
-![App Screenshot](images/Screenshot 2025-05-10 121010.png)
+![App Screenshot](images/screenshot.png)
+
 
 
 ## 🛠️ Technologies Used
